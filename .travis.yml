@@ -3,3 +3,6 @@ language: csharp
 solution: ide2www.sln
 mono: none
 dotnet: 2.2.104
+script:
+ - dotnet restore
+ - dotnet build
